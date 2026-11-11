@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Para peluquerías y centros de estética: reservas online 24/7, agenda de cada profesional, recordatorios y ficha de cliente en un programa.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -73,38 +77,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">CitaSalón</a></div>
-  <nav class="top"><a href="#que" data-ev="click_nav_que">Qué obtienes</a><a href="price.html" data-ev="click_nav_precio">Precio</a><a href="#ejemplo" data-ev="click_nav_ejemplo">Ejemplo</a><a href="#start" data-ev="click_nav_start">Empezar</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">CitaSalón</a>
+  <nav><a href="#que" data-ev="click_nav_que">Qué obtienes</a><a href="price.html" data-ev="click_nav_precio">Precio</a><a href="#ejemplo" data-ev="click_nav_ejemplo">Ejemplo</a><a href="#start" data-ev="click_nav_start">Empezar</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Tus clientes reservan online a cualquier hora — agenda del equipo y recordatorios automáticos</h1>
-    <p class="sub">Para peluquerías, centros de estética y barberías: reservas online las 24 horas, la agenda de cada profesional, recordatorios antes de la cita y el historial de cada cliente.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Lo necesito</a>
-    <p class="cta-note">Acceso anticipado · En esta página aún no se acepta ningún pago</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Para peluquerías, centros de estética</p>
+      <h1 class="rise" style="--i:1" data-len="long">Tus clientes reservan online a cualquier hora&nbsp;<span class="soft">— agenda del equipo y recordatorios automáticos</span></h1>
+      <p class="rise" style="--i:2">Para peluquerías, centros de estética y barberías: reservas online las 24 horas, la agenda de cada profesional, recordatorios antes de la cita y el historial de cada cliente.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Lo necesito</a>
+      <p class="meta rise" style="--i:4">Acceso anticipado · En esta página aún no se acepta ningún pago</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="130" y="160" font-size="40" font-weight="600" fill="#0a1524">Reservas</text><line x1="130" y1="210" x2="1070" y2="210" stroke="#dde2ea" stroke-width="3" fill="none" /><text x="130" y="270" font-size="32" font-weight="600" fill="#0a1524">Agenda</text><rect x="130" y="310" width="500" height="340" rx="16" fill="#dfe8f7" /><rect x="155" y="340" width="90" height="70" rx="8" fill="#ffffff" /><rect x="265" y="340" width="90" height="70" rx="8" fill="#ffffff" /><rect x="375" y="340" width="90" height="70" rx="8" fill="#12397a" /><rect x="485" y="340" width="90" height="70" rx="8" fill="#ffffff" /><rect x="155" y="430" width="90" height="70" rx="8" fill="#ffffff" /><rect x="265" y="430" width="90" height="70" rx="8" fill="#b9c3d2" /><rect x="375" y="430" width="90" height="70" rx="8" fill="#ffffff" /><rect x="485" y="430" width="90" height="70" rx="8" fill="#ffffff" /><rect x="155" y="520" width="90" height="70" rx="8" fill="#dde2ea" /><rect x="265" y="520" width="90" height="70" rx="8" fill="#ffffff" /><text x="700" y="270" font-size="32" font-weight="600" fill="#0a1524">Recordatorios</text><rect x="700" y="320" width="340" height="180" rx="20" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="730" y="370" width="220" height="24" rx="8" fill="#dde2ea" /><rect x="730" y="420" width="150" height="36" rx="12" fill="#12397a" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Para</dt><dd>Peluquerías, centros de estética</dd></div>
+      <div><dt>Hace</dt><dd>Reservas online las 24 horas</dd></div>
+      <div><dt>Como</dt><dd>En el navegador</dd></div>
+      <div><dt>Acceso</dt><dd>Está en preparación</dd></div>
+    </dl>
+  </section>
 
   <section id="que" data-view="features_view">
-    <h2>Qué obtienes</h2>
-    <div class="grid">
-      <div class="card"><b>Reservas online</b><span>El cliente elige servicio, profesional y hora desde el móvil.</span><br><a class="btn" href="price.html" data-ev="feature_reservas">Lo necesito</a></div>
-      <div class="card"><b>Agenda del equipo</b><span>La agenda de cada profesional, con duraciones y descansos.</span><br><a class="btn" href="price.html" data-ev="feature_agenda">Lo necesito</a></div>
-      <div class="card"><b>Recordatorios</b><span>Un aviso antes de cada cita para reducir las ausencias.</span><br><a class="btn" href="price.html" data-ev="feature_recordatorios">Lo necesito</a></div>
-      <div class="card"><b>Fichas de clientes</b><span>Historial de servicios, colores y notas.</span><br><a class="btn" href="price.html" data-ev="feature_fichas">Lo necesito</a></div>
+    <div class="stack"><h2>Qué obtienes</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="170" y="70" width="460" height="470" rx="36" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="210" y="170" font-size="32" font-weight="600" fill="#0a1524">Reservas online</text><rect x="220" y="220" width="360" height="56" rx="14" fill="#dfe8f7" /><rect x="220" y="300" width="360" height="56" rx="14" fill="#dde2ea" /><rect x="220" y="390" width="220" height="64" rx="16" fill="#12397a" /><circle cx="400" cy="115" r="12" fill="#b9c3d2" /></svg></div>
+        <h3>Reservas online</h3><p>El cliente elige servicio, profesional y hora desde el móvil.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_reservas">Lo necesito</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="34" font-weight="600" fill="#0a1524">Agenda del equipo</text><circle cx="220" cy="280" r="36" fill="#dfe8f7" /><circle cx="400" cy="280" r="36" fill="#12397a" /><circle cx="580" cy="280" r="36" fill="#dfe8f7" /><rect x="160" y="350" width="120" height="130" rx="16" fill="#dde2ea" /><rect x="340" y="350" width="120" height="130" rx="16" fill="#b9c3d2" /><rect x="520" y="350" width="120" height="130" rx="16" fill="#dde2ea" /></svg></div>
+        <h3>Agenda del equipo</h3><p>La agenda de cada profesional, con duraciones y descansos.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_agenda">Lo necesito</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="100" y="130" width="600" height="260" rx="28" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><polygon points="170,390 260,390 200,460" fill="#ffffff" /><text x="140" y="210" font-size="36" font-weight="600" fill="#0a1524">Recordatorios</text><rect x="140" y="250" width="360" height="28" rx="8" fill="#dde2ea" /><rect x="140" y="310" width="220" height="40" rx="12" fill="#12397a" /></svg></div>
+        <h3>Recordatorios</h3><p>Un aviso antes de cada cita para reducir las ausencias.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_recordatorios">Lo necesito</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="160" y="60" width="480" height="480" rx="18" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><circle cx="400" cy="170" r="46" fill="#dfe8f7" /><text x="210" y="280" font-size="32" font-weight="600" fill="#0a1524">Fichas de clientes</text><rect x="210" y="330" width="380" height="22" rx="8" fill="#dde2ea" /><rect x="210" y="380" width="280" height="22" rx="8" fill="#b9c3d2" /><rect x="210" y="430" width="320" height="22" rx="8" fill="#12397a" /></svg></div>
+        <h3>Fichas de clientes</h3><p>Historial de servicios, colores y notas.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_fichas">Lo necesito</a>
+      </article>
     </div>
   </section>
 
-  <section id="ejemplo" data-view="example_view">
-    <h2>Ejemplo (datos ficticios)</h2>
-    <p class="fine">Peluquería de tres personas en Valencia. El domingo por la noche una clienta reserva corte y color con Marta para el jueves a las 10:00. El miércoles recibe un recordatorio. El jueves por la mañana Marta ve su día: 7 citas y, para el color, la referencia que usó la última vez.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Elige tu plan</a>
+  <section id="ejemplo" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Ejemplo</h2>
+      <p>Peluquería de tres personas en Valencia. El domingo por la noche una clienta reserva corte y color con Marta para el jueves a las 10:00. El miércoles recibe un recordatorio. El jueves por la mañana Marta ve su día: 7 citas y, para el color, la referencia que usó la última vez.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Elige tu plan</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="240" y1="160" x2="960" y2="160" stroke="#dde2ea" stroke-width="6" fill="none" /><circle cx="240" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="600" cy="160" r="22" fill="#ffffff" stroke="#b9c3d2" stroke-width="6" /><circle cx="960" cy="160" r="22" fill="#12397a" /><text x="240" y="240" font-size="34" font-weight="600" fill="#0a1524" text-anchor="middle">domingo</text><text x="600" y="240" font-size="34" font-weight="600" fill="#0a1524" text-anchor="middle">recordatorio</text><text x="960" y="240" font-size="34" font-weight="600" fill="#0a1524" text-anchor="middle">jueves</text><rect x="120" y="300" width="960" height="420" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="170" y="390" font-size="38" font-weight="600" fill="#0a1524">corte y color</text><text x="170" y="470" font-size="32" fill="#566174">Marta</text><rect x="170" y="540" width="520" height="80" rx="16" fill="#dfe8f7" /><rect x="190" y="566" width="220" height="28" rx="8" fill="#ffffff" /><circle cx="620" cy="580" r="22" fill="#12397a" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Cómo funciona</h2>
-    <p>En una peluquería o un centro de estética el teléfono suena mientras se trabaja, los mensajes se acumulan en las redes sociales y parte de los clientes acaba reservando en otro sitio porque nadie contestó a tiempo. CitaSalón permite que los clientes reserven solos, a cualquier hora, y que el salón vea todo el día en un mismo lugar.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Cómo funciona</h2></div>
+    <div class="stack">
+      <p>En una peluquería o un centro de estética el teléfono suena mientras se trabaja, los mensajes se acumulan en las redes sociales y parte de los clientes acaba reservando en otro sitio porque nadie contestó a tiempo. CitaSalón permite que los clientes reserven solos, a cualquier hora, y que el salón vea todo el día en un mismo lugar.</p>
     <p>Empiezas con la lista de servicios — corte, color, peinado, tratamientos, depilación — con su duración y su precio, y con tu equipo y sus horarios. Cada profesional puede tener sus propios servicios, y la duración puede variar según la persona.</p>
     <p>El cliente abre tu página de reservas en el móvil, elige servicio, profesional y hora y deja su nombre y teléfono. La cita aparece al instante en la agenda. Puedes poner el enlace en tu web, en tus redes sociales y en tu ficha de mapas.</p>
     <p>Antes de la cita se envía un recordatorio con la hora, la dirección y la opción de cancelar. Si el cliente cancela, el hueco queda libre para otra persona. Tú decides cuándo se envía el recordatorio y qué dice.</p>
@@ -115,31 +149,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>CitaSalón es para peluquerías, centros de estética, salones de uñas y barberías de una a varias decenas de profesionales. El precio es mensual, con un importe por cada profesional adicional.</p>
     <p>Para servicios largos, como un color completo o un alisado, puedes pedir que la reserva quede pendiente hasta que el salón la confirme. El cliente hace la solicitud online y tú confirmas o propones otra hora, así la agenda sigue bajo control incluso para los servicios que necesitan preparación.</p>
     <p>CitaSalón es una herramienta de reservas; los precios, los horarios y el tratamiento de los datos de los clientes son responsabilidad del salón.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Preguntas frecuentes</h2>
-    <h3>¿Para quién es CitaSalón?</h3>
-    <p>Para peluquerías, centros de estética, salones de uñas y barberías.</p>
-    <h3>¿Los clientes pueden reservar solos?</h3>
-    <p>Sí, online las 24 horas, eligiendo servicio, profesional y hora.</p>
-    <h3>¿Se envían recordatorios?</h3>
-    <p>Sí, antes de cada cita; tú eliges cuándo y con qué texto.</p>
-    <h3>¿Hay que instalar algo?</h3>
-    <p>No, funciona en el navegador y en el móvil.</p>
-    <h3>¿Puedo usarlo ya?</h3>
-    <p>Todavía no. El servicio está en preparación y estamos comprobando si los salones lo necesitan.</p>
+    <div class="stack"><h2>Preguntas frecuentes</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>¿Para quién es CitaSalón?</h3><p>Para peluquerías, centros de estética, salones de uñas y barberías.</p></div>
+      <div class="split flip"><h3>¿Los clientes pueden reservar solos?</h3><p>Sí, online las 24 horas, eligiendo servicio, profesional y hora.</p></div>
+      <div class="split flip"><h3>¿Se envían recordatorios?</h3><p>Sí, antes de cada cita; tú eliges cuándo y con qué texto.</p></div>
+      <div class="split flip"><h3>¿Hay que instalar algo?</h3><p>No, funciona en el navegador y en el móvil.</p></div>
+      <div class="split flip"><h3>¿Puedo usarlo ya?</h3><p>Todavía no. El servicio está en preparación y estamos comprobando si los salones lo necesitan.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Crea tu página de reservas</h2>
-    <p><label>Profesionales en el salón<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— elige —</option><option>1</option><option>2–3</option><option>4–6</option><option>Más de 6</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Empezar</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Crea tu página de reservas</h2>
+    </div>
+    <div class="tile stack">
+      <label>Profesionales en el salón<select data-ev-focus="form_start"><option value="">— elige —</option><option>1</option><option>2–3</option><option>4–6</option><option>Más de 6</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Empezar</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>CitaSalón</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Privacidad</a></p>
-  <p class="muted">Herramienta de reservas; precios, horarios y datos de los clientes son responsabilidad del salón.</p>
+  <p>Herramienta de reservas; precios, horarios y datos de los clientes son responsabilidad del salón.</p>
 </div></footer>
 
 </body>
